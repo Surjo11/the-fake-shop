@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Product from "../Product/Product";
 import "./Shop.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faListOl } from "@fortawesome/free-solid-svg-icons";
 const Shop = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -16,7 +18,9 @@ const Shop = () => {
         ))}
       </div>
       <div className="order-container">
-        <h2>Order Summary</h2>
+        <h2>
+          Order Summary <FontAwesomeIcon icon={faListOl} />
+        </h2>
       </div>
     </div>
   );
