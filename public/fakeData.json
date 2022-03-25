@@ -1,57 +1,68 @@
 [
   {
-    "id": "623ddec10940dfeb2f4b1b43",
-    "price": "$1,749.48",
-    "picture": "https://images2.imgbox.com/a2/4e/g2pCcoR2_o.jpg"
+    "id": "623e072c9f0148d2b32a88bc",
+    "price": "$1,502.39",
+    "picture": "https://i.postimg.cc/MK9nB6hG/xiaomi-redmibook-pro-14-ryzen-5-5500u-laptop-3-550x550.jpg",
+    "name": "Xiaomi RedmiBook Pro 14 Inch"
   },
   {
-    "id": "623ddec1183e8efdf0956aa3",
-    "price": "$1,985.89",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072cb833374aa5c45a6a",
+    "price": "$3,124.11",
+    "picture": "https://i.postimg.cc/fLX3S1dT/asus-tuf-gaming-f15-fx506lh-10300h-laptop-01-550x550.jpg",
+    "name": "Asus TUF Gaming F15 FX506LH 15.6 Inch"
   },
   {
-    "id": "623ddec12d23e585adaf7fcd",
-    "price": "$1,156.70",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072c642679db9d28d1c6",
+    "price": "$3,347.17",
+    "picture": "https://i.postimg.cc/hvBXLM88/asus-vivobook-pro-14x-oled-m7400qc-gaming-laptop-2-550x550.jpg",
+    "name": "Asus Vivobook Pro 16X "
   },
   {
-    "id": "623ddec1327ce993e7cfb8b7",
-    "price": "$1,143.29",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072cd98195cfc420bcb7",
+    "price": "$1,739.71",
+    "picture": "https://i.postimg.cc/cCBrXYTp/asus-x515ma-4-550x550.jpg",
+    "name": "ASUS VivoBook 15 X515JA 15.6 Inch"
   },
   {
-    "id": "623ddec1b575d0dbc39d16b1",
-    "price": "$1,127.98",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072c5407eb6e65aae9e5",
+    "price": "$1,182.70",
+    "picture": "https://i.postimg.cc/FFydr5mT/FA506-IC-2-550x550.jpg",
+    "name": "ASUS TUF Gaming A15 FA506IC-R5 15.6 Inch"
   },
   {
-    "id": "623ddec13e5b4f8e061fa550",
-    "price": "$1,339.60",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072c34266616b48dda3c",
+    "price": "$3,653.29",
+    "picture": "https://i.postimg.cc/SNVn96n8/Inspiron-15-3501-4-550x550.jpg",
+    "name": "Dell Inspiron 15 3501 15.6 Inch"
   },
   {
-    "id": "623ddec10dd3272849731b46",
-    "price": "$1,438.07",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072c2a6fc5fb522a9eda",
+    "price": "$2,911.90",
+    "picture": "https://i.postimg.cc/YCsjntfC/microsoft-surface-laptop-4-core-i7-11th-gen-laptop-4-550x550.jpg",
+    "name": "Microsoft Surface Laptop 4 13.5 Inch"
   },
   {
-    "id": "623ddec1a1305531f3a17567",
-    "price": "$1,751.34",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072c2a5d6fe2b25efb3a",
+    "price": "$1,085.41",
+    "picture": "https://i.postimg.cc/Z5RCxWNQ/msi-gf63-thin-11sc-gaming-laptop-3-550x550.jpg",
+    "name": "MSI GF63 THIN 11U 15.6 Inch"
   },
   {
-    "id": "623ddec1900fa009fb27241e",
-    "price": "$1,919.96",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072cab65c06934322087",
+    "price": "$1,267.02",
+    "picture": "https://i.postimg.cc/L6mqhC82/msi-modern-15-a11sb-2-550x550.jpg",
+    "name": "MSI Modern 14 B11MOU 856X 14 INCH"
   },
   {
-    "id": "623ddec1f9526cd60892549a",
-    "price": "$1,606.56",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072c323150712cc45066",
+    "price": "$3,705.21",
+    "picture": "https://i.postimg.cc/brhRZxsW/msi-prestige-14-a11sb-core-i7-laptop-3-550x550.jpg",
+    "name": "MSI Prestige 14 A11SB 14 Inch"
   },
   {
-    "id": "623ddec14acfcdbcff8eca02",
-    "price": "$1,943.53",
-    "picture": "http://placehold.it/32x32"
+    "id": "623e072ca22565e89582775f",
+    "price": "$3,000.96",
+    "picture": "https://i.postimg.cc/x8c4Py0C/Mac-Book-Pro-16-Inch-Space-Gray-550x550.jpg",
+    "name": "Apple MacBook Pro 14-Inch"
   }
 ]
