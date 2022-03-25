@@ -1,7 +1,11 @@
-# lucky-one-Surjo11
 # The-Fake-Shop
 
-Live Link: [https://elegant-smakager-7f1c0d.netlify.app/]
+Live Link: [https://the-fake-shop-7f1c0d.netlify.app/]
+
+# lucky-one-Surjo11
+
+Name of my Private repo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,4 +76,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
