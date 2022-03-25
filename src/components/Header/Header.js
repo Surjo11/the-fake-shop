@@ -9,7 +9,7 @@ const Header = () => {
         The Fake Shop <FontAwesomeIcon icon={faLaptop} />
       </h1>
       <h2 className="">Welcome to our Fake Shop</h2>
-      <h3>Choose Your Desire Laptop</h3>
+      <h3>Choose Your Desiring Laptop</h3>
     </div>
   );
 };

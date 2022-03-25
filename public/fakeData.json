@@ -12,22 +12,10 @@
     "name": "Asus TUF Gaming F15 FX506LH 15.6 Inch"
   },
   {
-    "id": "623e072c642679db9d28d1c6",
-    "price": "$3,347.17",
-    "picture": "https://i.postimg.cc/hvBXLM88/asus-vivobook-pro-14x-oled-m7400qc-gaming-laptop-2-550x550.jpg",
-    "name": "Asus Vivobook Pro 16X "
-  },
-  {
     "id": "623e072cd98195cfc420bcb7",
     "price": "$1,739.71",
     "picture": "https://i.postimg.cc/cCBrXYTp/asus-x515ma-4-550x550.jpg",
     "name": "ASUS VivoBook 15 X515JA 15.6 Inch"
-  },
-  {
-    "id": "623e072c5407eb6e65aae9e5",
-    "price": "$1,182.70",
-    "picture": "https://i.postimg.cc/FFydr5mT/FA506-IC-2-550x550.jpg",
-    "name": "ASUS TUF Gaming A15 FA506IC-R5 15.6 Inch"
   },
   {
     "id": "623e072c34266616b48dda3c",
@@ -64,5 +52,17 @@
     "price": "$3,000.96",
     "picture": "https://i.postimg.cc/x8c4Py0C/Mac-Book-Pro-16-Inch-Space-Gray-550x550.jpg",
     "name": "Apple MacBook Pro 14-Inch"
+  },
+  {
+    "id": "623e072c642679db9d28d1c6",
+    "price": "$3,347.17",
+    "picture": "https://i.postimg.cc/hvBXLM88/asus-vivobook-pro-14x-oled-m7400qc-gaming-laptop-2-550x550.jpg",
+    "name": "Asus Vivobook Pro 16X OLED N7600PC"
+  },
+  {
+    "id": "623e072c5407eb6e65aae9e5",
+    "price": "$1,182.70",
+    "picture": "https://i.postimg.cc/FFydr5mT/FA506-IC-2-550x550.jpg",
+    "name": "ASUS TUF Gaming A15 FA506IC-R5 15.6 Inch"
   }
 ]
