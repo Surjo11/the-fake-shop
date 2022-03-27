@@ -6,10 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faListOl } from "@fortawesome/free-solid-svg-icons";
 const Shop = () => {
   const [products, setProducts] = useState([]);
-  // console.log(products);
 
   const [orders, setOrders] = useState([]);
-  // console.log(order);
 
   useEffect(() => {
     fetch("fakeData.json")
@@ -19,9 +17,7 @@ const Shop = () => {
 
   // AddToOrder
   const handelAddToOrder = (product) => {
-    // console.log(product);
     const newOrder = [...orders, product];
-    // console.log(newOrder);
     setOrders(newOrder);
   };
 
