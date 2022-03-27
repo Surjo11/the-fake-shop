@@ -2,7 +2,7 @@ import React from 'react';
 import "./InfoReact.css"
 const InfoReact = () => {
     return (
-      <div className='info'>
+      <div className="info">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -24,7 +24,12 @@ const InfoReact = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                React is a  popular framework for frontend web developer.
+                React is a popular library for frontend web developer.when we
+                are declaring content in a component react render it and show it
+                in our website means in actual dom. React is also creating a
+                virtual dom in the same time.When we are changing something in
+                component,react is creating a new virtual dom and comparing with
+                the old one then updating only that content in actual dom.
               </div>
             </div>
           </div>
@@ -38,7 +43,7 @@ const InfoReact = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                What's diffrent between Props and State?
               </button>
             </h2>
             <div
@@ -48,20 +53,13 @@ const InfoReact = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Props are working like function arrgumanets. Props is mainly an object. we can pass data one component to another component by props.
+                State is like storage.It can store data or information of Component.State can be updatable and  will change by user action.
               </div>
             </div>
           </div>
-          </div>
         </div>
+      </div>
     );
 };
 
