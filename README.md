@@ -4,7 +4,7 @@ Live Link: [https://the-fake-shop-7f1c0d.netlify.app/]
 
 # lucky-one-Surjo11
 
-Name of my Private repo
+Name of my Private repo ^
 
 # Getting Started with Create React App
 

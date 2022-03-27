@@ -6,15 +6,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faListOl } from "@fortawesome/free-solid-svg-icons";
 const Shop = () => {
   const [products, setProducts] = useState([]);
-  const [order, setOrder] = useState([]);
+  // console.log(products);
+
+  const [orders, setOrders] = useState([]);
+  // console.log(order);
+
   useEffect(() => {
     fetch("fakeData.json")
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
+
+  // AddToOrder
   const handelAddToOrder = (product) => {
-    const newOrder = [...order, product];
-    setOrder(newOrder);
+    // console.log(product);
+    const newOrder = [...orders, product];
+    // console.log(newOrder);
+    setOrders(newOrder);
+  };
+
+  // Clear Order
+  const handelClearOrder = () => {
+    setOrders([]);
   };
   return (
     <div className="shop-order-container">
@@ -31,9 +44,12 @@ const Shop = () => {
         <h2>
           Order Summary <FontAwesomeIcon icon={faListOl} />
         </h2>
-        {order.map((singleOrder) => (
+        {orders.map((singleOrder) => (
           <Order key={singleOrder.id} singleOrder={singleOrder}></Order>
         ))}
+        <button className="choose-for-me">Choose one for me</button>
+        <br />
+        <button onClick={()=>handelClearOrder()} className="clear-order">Clear Order</button>
       </div>
     </div>
   );
