@@ -25,6 +25,14 @@ const Shop = () => {
     setOrders(newOrder);
   };
 
+  //Choose Random Item
+  const saveOrder = [];
+  const  handelRandomItem = (orders) => {
+    const random = Math.floor(Math.random() * orders.length);
+    saveOrder.push(orders[random]);
+    setOrders(saveOrder);
+  };
+
   // Clear Order
   const handelClearOrder = () => {
     setOrders([]);
@@ -47,9 +55,11 @@ const Shop = () => {
         {orders.map((singleOrder) => (
           <Order key={singleOrder.id} singleOrder={singleOrder}></Order>
         ))}
-        <button className="choose-for-me">Choose one for me</button>
+        <button onClick={()=> handelRandomItem(orders)} className="choose-for-me">Choose one for me</button>
         <br />
-        <button onClick={()=>handelClearOrder()} className="clear-order">Clear Order</button>
+        <button onClick={() => handelClearOrder()} className="clear-order">
+          Clear Order
+        </button>
       </div>
     </div>
   );
